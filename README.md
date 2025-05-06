@@ -1,3 +1,4 @@
+# Media Server Updater
 # 媒体服务器更新脚本
 
 [View English Version README](#english-version-anchor)
@@ -144,7 +145,7 @@
 1.  将脚本另存为 `update_plex.sh`。
 2.  赋予执行权限: `chmod +x update_plex.sh`。
 3.  使用 sudo 运行: `sudo ./update_plex.sh`。
-4.  脚本会首先询问您是否有直接的 `.deb` 下载链接。
+4.  脚本会首先询问您是否有[直接的 `.deb` 下载链接](https://www.plex.tv/media-server-downloads/?cat=computer&plat=linux&signUp=0)。
     * **示例运行 (使用直接链接):**
         ```bash
         ubuntu@instance-20231107-1658:~$ sudo ./update_plex.sh
